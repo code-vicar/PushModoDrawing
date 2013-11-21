@@ -1,0 +1,54 @@
+@import "palette";
+
+// navbar-default overrides
+// bg and text
+$navbar-default-bg: $primary;
+$navbar-default-color: rgb(255,255,255);
+$navbar-default-border: $primary;
+// links
+$navbar-default-link-color: rgb(255,255,255);
+$navbar-default-link-hover-color: rgb(205,205,55);
+$navbar-default-link-hover-bg: inherit;
+$navbar-default-link-active-color: rgb(230,230,230);
+$navbar-default-link-active-bg: inherit;
+$navbar-default-link-disabled-color: rgb(200,200,200);
+$navbar-default-link-disabled-bg: inherit;
+// brand
+$navbar-default-brand-color: rgb(255,255,255);
+$navbar-default-brand-hover-color: rgb(205,205,55);
+$navbar-default-brand-hover-bg: inherit;
+
+// dropdown overrides
+$dropdown-bg: $primary;
+$dropdown-border: rgb(205,205,55);
+$dropdown-fallback-border: rgb(205,205,55);
+$dropdown-caret-color: rgb(0,0,0);
+$dropdown-divider-bg: rgb(230,230,230);
+$dropdown-header-color: rgb(255,255,255);
+$dropdown-link-color: rgb(255,255,255);
+$dropdown-link-hover-color: rgb(255,255,255);
+$dropdown-link-hover-bg: $cornerDark;
+$dropdown-link-active-color: rgb(230,230,230);
+$dropdown-link-active-bg: $cornerDark;
+$dropdown-link-disabled-color: rgb(200,200,200);
+
+@import "bootstrap";
+
+body {
+  padding-top: 60px;
+}
+.pm-body {
+}
+.pm-header {
+}
+.pm-container {
+}
+.pm-nav {
+}
+.divider-vertical {
+  margin-left:2px;
+  margin-right:2px;
+  background: rgb(230,230,230);
+  width: 1px;
+  height: $navbar-height;
+}

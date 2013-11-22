@@ -17,5 +17,13 @@
 *.sublime*
 diff.txt
 
+config/database.yml
+
 # information for accessing the PushModo service
 config/initializers/pushmodo.rb
+
+# Capistrano
+Capfile
+lib/capistrano
+config/deploy.rb
+config/deploy

@@ -27,6 +27,8 @@ group :development, :test do
   gem 'debugger'
   gem 'better_errors'
   gem 'binding_of_caller'
+  gem 'capistrano', '~>3.0.1'
+  gem 'capistrano-rails', '~> 1.1.0'
 end
 
 # To use ActiveModel has_secure_password

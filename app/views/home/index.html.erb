@@ -1,0 +1,9 @@
+<% content_for :scripts do %>
+  <%= raw @client_response.body %>
+  <script type="text/javascript">
+    $(function() {
+      window.news = pm_client.subscribe("/news",function(d){console.log(d);}).errback(function(err){console.log(err);});
+      pm_client.publish("/news", "hi").errback(function(err){console.log(err);});
+    });
+  </script>
+<% end %>

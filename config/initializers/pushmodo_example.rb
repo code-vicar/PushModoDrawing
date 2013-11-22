@@ -1,5 +1,6 @@
-# PushModoDrawing::Application.config.pushmodo =
-#   app_id: 'applicationid',
-#   app_secret: 'applicationsecret',
+# PushModoDrawing::Application.config.pushmodo = {
+#   id: 'applicationid',
+#   secret: 'applicationsecret',
 #   email: 'myname@example.com',
 #   password: 'mypassword'
+#   }

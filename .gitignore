@@ -15,6 +15,7 @@
 
 /tmp/*
 !/tmp/sockets
+!/tmp/pids
 
 *.sublime*
 diff.txt
